@@ -1,3 +1,6 @@
+# OUTDATED
+# use facPr insted
+
 print("(criteres divs)")
 
 while True :
@@ -11,6 +14,7 @@ while True :
 nbre_premiers = []
 is_prime      = True
 
+print("sqrt={}".format(to_dec**0.5))
 for i in range(2, int(to_dec**0.5)+1) :
     is_prime = True
     for j in range(2, int(i**0.5)+1) :

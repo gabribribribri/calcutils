@@ -1,3 +1,5 @@
+# Average difference between two random number
+# Between 1 and 100. Why not.
 from random import *
 t=100000
 a=0
