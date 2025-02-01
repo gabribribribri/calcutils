@@ -24,7 +24,7 @@ for i in range(2, to_dec+1) :
             if to_dec%i == 0 :
                 print("{} | {}".format(int(to_dec), i))
                 to_dec /= i
-                expo_i = 0
+                expo_i += 1
             else :
                 if expo_i != 0:
                     fac_pr[i] = expo_i
